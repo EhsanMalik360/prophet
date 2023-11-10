@@ -1,6 +1,6 @@
 import streamlit as st
-from myprophet import Prophet
-from myprophet.plot import plot_plotly
+from prophet import Prophet
+from prophet.plot import plot_plotly
 import pandas as pd
 from plotly import graph_objs as go
 
